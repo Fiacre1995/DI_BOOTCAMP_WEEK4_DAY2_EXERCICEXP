@@ -1,0 +1,10 @@
+<table>
+  <tr>
+    <td> Nom</td>
+    <td> Prix</td>
+  </tr>
+  <tr *ngFor="let produit of Produits" [ngClass]="ProductPrix(produit.prix)" >
+    <td [ngClass]="ProductNom(produit.nom)"> {{ produit.nom}}</td>
+    <td> {{ produit.prix }}</td>
+  </tr>
+</table>

@@ -1,0 +1,8 @@
+.highlightDirective {
+  background-color: yellow;
+  color: red;
+}
+
+.boldDirective {
+  font-weight: bold;
+}
